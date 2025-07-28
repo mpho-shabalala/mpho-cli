@@ -15,6 +15,7 @@ A modular and extensible CLI toolbox to boost your productivity with handy devel
 - `docs` — Generate documentation from code comments
 - `init` — Scaffold a new project with a basic structure
 - `readme` — Generate a bare minimum README.md file (quick project docs)
+- `git` — Runs git add, commit and push to remote repository
 
 ---
 
