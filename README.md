@@ -1,117 +1,116 @@
+# ⚡️ mpho-cli
 
-
-```markdown
-# mpho-cli
-
-A modular and extensible CLI toolbox to boost your productivity with handy developer tools like project file tree generation, testing, linting, docs generation, and project scaffolding.
+A modular and extensible CLI toolbox to boost your productivity with handy developer tools like project file tree generation, testing, linting, docs generation, Git automation, and scaffolding.
 
 ---
 
-## Features
+## 🚀 Features
 
-- `tree` — Generate a visual file tree of your project (cross-platform compatible)
-- `test` — Run tests with Vitest integration
-- `lint` — Run ESLint to check your code quality
-- `docs` — Generate documentation from code comments
-- `init` — Scaffold a new project with a basic structure
-- `readme` — Generate a bare minimum README.md file (quick project docs)
-- `git` — Runs git add, commit and push to remote repository
+- 🗂️ `tree` — Generate a visual file tree of your project (cross-platform)
+- 🧪 `test` — Run tests using Vitest
+- ✅ `lint` — Check code quality with ESLint
+- 📚 `docs` — Generate documentation from code comments
+- 🏗️ `init` — Scaffold a new project with a basic folder structure
+- 📄 `readme` — Generate a bare-minimum `README.md` file
+- 🔧 `git` — Add, commit, and push changes to Git in one step
 
 ---
 
-## Installation
+## 📦 Installation
 
-> **For development:**
-
-Clone the repo and run:
+> **For development and global CLI use:**
 
 ```bash
+git clone https://github.com/your-username/mpho-cli.git
+cd mpho-cli
 npm install
 npm link
 ```
 
-This will install dependencies and link the CLI globally on your system for easy use.
-
-> **Use it anywhere in your terminal:**
+✅ This installs all dependencies and links the CLI globally so you can run it anywhere using:
 
 ```bash
-mpho tree
-mpho test
-mpho lint
-mpho docs
-mpho init
-mpho readme
+mpho <command>
 ```
 
 ---
 
-## Usage
+## 🛠️ Usage
 
-### Generate a file tree
-
+### 🔍 Generate a project tree
 ```bash
 mpho tree
 ```
 
-### Run tests
-
+### 🧪 Run tests
 ```bash
 mpho test
 ```
 
-### Run linting
-
+### ✅ Run linting
 ```bash
 mpho lint
 ```
 
-### Generate docs
-
+### 📚 Generate documentation
 ```bash
 mpho docs
 ```
 
-### Scaffold a new project
-
+### 🏗️ Scaffold a new project
 ```bash
 mpho init
 ```
 
-### Generate a bare minimum README.md
-
+### 📄 Create a bare README
 ```bash
 mpho readme
 ```
 
----
-
-## Development
-
-- The CLI entry point is `bin/mpho.js`
-- Commands are modularized under the `gulp/` and `tasks/` directories
-- Uses [yargs](https://github.com/yargs/yargs) for CLI argument parsing
-- Colored console output via [chalk](https://github.com/chalk/chalk)
-- Uses native Node.js `child_process` for executing shell commands
-- Written in ES Modules format (`"type": "module"` in package.json)
+### 🔧 Git: Add, commit, and push
+```bash
+mpho git "your commit message"
+```
 
 ---
 
-## Contributing
+## 🧩 Development Guide
 
-Feel free to open issues or submit pull requests to add features, fix bugs, or improve documentation!
+- CLI entry point: `bin/mpho.js`
+- Commands are modularized in:
+  - `gulp/` (tool orchestration)
+  - `tasks/` (logic handlers)
+- Argument parsing: [Yargs](https://github.com/yargs/yargs)
+- Terminal output: [Chalk](https://github.com/chalk/chalk)
+- System commands: Native `child_process` from Node.js
+- Code style: [ESModules](https://nodejs.org/api/esm.html) (`"type": "module"` in `package.json`)
 
 ---
 
-## License
+## 🤝 Contributing
+
+Contributions are welcome!  
+Feel free to [open an issue](https://github.com/your-username/mpho-cli/issues) or submit a pull request if you'd like to:
+
+- Add new tools
+- Fix bugs
+- Improve documentation
+- Suggest better CLI flows
+
+---
+
+## 📄 License
 
 MIT License
 
 ---
 
-## Notes
+## 💡 Notes
 
-- Tested on macOS and Windows; some commands like `tree` use cross-platform Node.js packages for compatibility.
-- Make sure you have Node.js >= 16 installed.
-```
+- Tested on macOS and Windows
+- Designed to be fast, extensible, and cross-platform
+- Requires **Node.js v16 or higher**
 
 ---
+
+Made with ☕ and ⚙️ by Mpho
