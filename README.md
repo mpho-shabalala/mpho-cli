@@ -1,4 +1,4 @@
-Sure! Here's a professional and clear **README.md** tailored for your CLI tool based on what we've discussed:
+
 
 ```markdown
 # mpho-cli
