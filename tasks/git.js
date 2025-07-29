@@ -6,7 +6,7 @@ export function runGitTask(argv) {
 
   exec(`git add . && git commit -m "${message}" && git push`, (err, stdout, stderr) => {
     if (err) {
-      console.error(`❌ Git Error:\n${stderr}`);
+      console.error(`❌${err.message} Git Error:\n${stderr}`);
     } else {
       console.log(`✅ Git Commit & Push:\n${stdout}`);
     }
