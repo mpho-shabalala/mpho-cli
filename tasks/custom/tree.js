@@ -3,8 +3,8 @@ import path from 'path';
 import inquirer from 'inquirer';
 import stripAnsi from 'strip-ansi';
 import chalk from 'chalk';
-import { drawTree } from '../utils/treeRenderer.js';
-import {formatBytes} from '../utils/formatBytes.js'
+import { drawTree } from '../../utils/treeRenderer.js';
+import {formatBytes} from '../../utils/formatBytes.js'
 
 
 export async function runTreeTask() {

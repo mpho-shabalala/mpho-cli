@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { log } from '../utils/logger.js';
+import { log } from '../../utils/logger.js';
 
 const template = `# Project Title
 

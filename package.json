@@ -21,6 +21,7 @@
   "devDependencies": {
     "eslint": "^9.32.0",
     "gulp": "^5.0.1",
+    "gulp-eslint-new": "^2.4.0",
     "vitest": "^3.2.4"
   }
 }
